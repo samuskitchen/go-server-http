@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Help us greet you </title>
+        <link rel="stylesheet" href="/static/main.css">
+    </head>
+    <body>
+        <form method="POST" action="/">
+            <div class="container">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="entered_name">Enter Name:</label>
+                    </div>
+                    <div class="col-75">
+                        <input id="entered_name" type="text" name="entered_name">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="entered_nationality">Enter Nationality:</label>
+                    </div>
+                    <div class="col-75">
+                        <input id="entered_nationality" type="text" name="entered_nationality">
+                    </div>
+                </div>
+                <p/>
+                <div class="row">
+                    <div class="col-25">
+                        <input type="submit" value="Greet me!">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
